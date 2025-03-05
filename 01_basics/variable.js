@@ -5,3 +5,5 @@ accountCity ="Mumbai"
 
 
 console.table([accountId, accountEmail, accountCity]);
+ 
+// Prefer not to use blog because issue in block scope and functional scope //
