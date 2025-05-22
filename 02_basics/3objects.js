@@ -4,7 +4,7 @@
 const jsUser = {
     name: "Yadnesh",
     "full name": "Yadnesh Rane",
-    [mySym]:"sym1",
+   [mySym]: "key1",
     email: "yrane555@gmail.com",
     age: 24,
     location: "Bhandup",
@@ -16,6 +16,7 @@ const jsUser = {
 console.log(jsUser.email);
 console.log(jsUser["email"]);
 console.log(jsUser["full name"]);
-console.log(jsUser[mySym])
+console.log(jsUser[mySym]);
+
 
 
