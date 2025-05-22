@@ -18,4 +18,15 @@ const instaUser = {
     }
 }
 
-console.log(instaUser.userName.fullName.lastName);
+//console.log(instaUser.userName.fullName.lastName);
+
+const red = {1:"a",2:"b"}
+const blue ={3:"c",4:"d"}
+
+//const yellow = {red,blue}
+//const yellow = Object.assign({}, red ,blue)
+const yellow = {...red,...blue}
+
+
+console.log(yellow);
+
