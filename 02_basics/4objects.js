@@ -32,16 +32,16 @@ const blue ={3:"c",4:"d"}
 
 const user = [
     {
-        user : "I"
-        pass : "123"
+        user : "I",
+        pass : "123",
     },
     {
-        user : "I"
-        pass : "123"
+        user : "I",
+        pass : "123",
     },
 
-    {    user : "I"
-        pass : "123"
+    {    user : "I",
+        pass : "123",
     }
 ]
 user[1].email
