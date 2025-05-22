@@ -25,8 +25,24 @@ const blue ={3:"c",4:"d"}
 
 //const yellow = {red,blue}
 //const yellow = Object.assign({}, red ,blue)
-const yellow = {...red,...blue}
+//const yellow = {...red,...blue}
 
 
-console.log(yellow);
+//console.log(yellow);
+
+const user = [
+    {
+        user : "I"
+        pass : "123"
+    },
+    {
+        user : "I"
+        pass : "123"
+    },
+
+    {    user : "I"
+        pass : "123"
+    }
+]
+user[1].email
 
