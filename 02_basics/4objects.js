@@ -46,13 +46,28 @@ const user = [
 ]
 user[1].email
 
-console.log(tinderUser);
+//console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+//console.log(Object.keys(tinderUser));
+//console.log(Object.values(tinderUser));
+//console.log(Object.entries(tinderUser));
 
-console.log(Object.hasOwnProperty('name'));
+//console.log(Object.hasOwnProperty('name'));
+
+const course  = {
+    name: "yadnesh",
+    email: "yrane555@gmail.com",
+    loginId: "1234",
+    instructer: "Hitesh",
+
+}
+
+//console.log(course.instructer);
+
+const {instructer: courseInstructer} = course
+
+//console.log(instructer);
+console.log(courseInstructer);
 
 
 
