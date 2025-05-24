@@ -34,11 +34,19 @@ const result = addTwoNumbers( 3, 6 )
 
 // console.log("Result:",result);
 
-function loggeInUser (myName) {
-    return`${"myName"} just logged in`
+function loggeInUser (myName = "Tom") {
+    if (!myName) {
+        console.log("Please enter name");
+        return
+        
+    }
+
+    return`${myName} just logged in`
 }
 
-console.log (loggeInUser("Yadnesh"))
-console.log(loggeInUser(""));
+// console.log (loggeInUser("Yadnesh"))
+console.log(loggeInUser());
+console.log(loggeInUser("yadnesh"));
+
 
 
