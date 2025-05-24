@@ -46,7 +46,40 @@ function loggeInUser (myName = "Tom") {
 
 // console.log (loggeInUser("Yadnesh"))
 // console.log(loggeInUser());
-console.log(loggeInUser("yadnesh"));
+// console.log(loggeInUser("yadnesh"));
 
+function calculateCartPrice(val1, val2, ...num1) {
+    return num1
+    
+}
 
+// console.log(calculateCartPrice(200, 300, 400, 500, 600));
 
+const user = {
+    name : "yadnesh",
+    price : 499
+}
+
+function newUser(anyUser) {
+    console.log(`Username is ${anyUser.name} and price is ${anyUser.price}`);
+    
+    
+}
+
+// console.log(newUser(user));
+
+// newUser(user)
+// newUser ({
+    // name : "Tanvi",
+    // price: 999
+// })
+
+const myNewArray = [200, 400, 600, 800]
+
+function returnThirdValue(getArray) {
+    return getArray[3]
+    
+}
+
+// console.log(returnThirdValue(myNewArray));
+// console.log(returnThirdValue([200, 3000, 400, 700, 5000]));
