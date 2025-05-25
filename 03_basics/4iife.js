@@ -1,12 +1,13 @@
 // Immediately Invoked Functions Expression
 
 (function chai (){ 
-    // 
+    // name IIFE
     console.log(`DB connected`);
     
 })();
 
 ((name)=>{
+    // simple IIFE
     console.log(`DB connected to ${name}`);
     
 }) ("Yadnesh")
