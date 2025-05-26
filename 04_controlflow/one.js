@@ -40,3 +40,15 @@
 // }
 
 
+const userLoggedIn = true
+const debitCard = true
+const loggedInGoogle = false
+const loggedInEmail = true
+
+if ( userLoggedIn && debitCard && 2==3){
+    console.log(`Allow to buy products`);
+    
+} if (loggedInGoogle || loggedInEmail ){
+    console.log(`Allow to buy product`);
+    
+}
