@@ -26,5 +26,5 @@ map.set ('RS', "Rusia")
  
 for (const [key, Value] of map) {
     console.log(key,':-', Value);
-     
+      
 }
