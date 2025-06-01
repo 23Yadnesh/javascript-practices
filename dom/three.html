@@ -35,5 +35,22 @@
 }
  lang ("TypeScript")
 
+//  Edit
+
+const secondLang = document.querySelector("li:nth-child(2)")
+console.log(secondLang);
+// secondLang.innerHTML = "mojo"
+const newLi = document.createElement('li')
+newLi.textContent = 'mojo'
+secondLang.replaceWith(newLi)
+
+//  Edit (this outerHTML will work but it is boreing and not a good practice but yes can be used sometime if the project works properly than use it)
+const firstLang = document.querySelector("li:first-child")
+firstLang.outerHTML = '<li>TypeScript</li>'
+
+// remove
+const lastLang = document.querySelector("li:last-child")
+lastLang.remove()
+
 </script>
 </html>
