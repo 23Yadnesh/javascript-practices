@@ -15,9 +15,17 @@
  function addLanguage(lang) {
     const li = document.createElement('li');
     li.innerHTML = `${lang}`
-    document.querySelector('.language').appendChild('li')
+    document.querySelector('.language').appendChild(li)
  }
  addLanguage("Python")
+
+ function langName(name) {
+    const li = document.querySelector('li');
+    li.appendChild(document.createTextNode(name))
+    document.querySelector('.language').appendChild(li)
+    
+ }
+ addLanguage("React Js")
 
 </script>
 </html>
